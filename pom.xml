@@ -122,6 +122,12 @@
     <karaf-maven-plugin.version>3.0.8</karaf-maven-plugin.version>
     <karaf-maven-plugin.aggregateFeatures>false</karaf-maven-plugin.aggregateFeatures>
 
+    <axis2.version>1.7.9</axis2.version>
+    <axiom.version>1.2.21</axiom.version>
+    <xmlschema-core.version>2.2.1</xmlschema-core.version>
+    <neethi.version>3.0.3</neethi.version>
+    <woden.version>1.0M10</woden.version>
+
     <nodejs.version>v10.0.0</nodejs.version>
     <npm.version>5.7.1</npm.version>
     <requirejs.version>2.3.6</requirejs.version>
@@ -683,6 +689,66 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-test</artifactId>
         <version>${spring-boot.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.axis2</groupId>
+        <artifactId>axis2-adb</artifactId>
+        <version>${axis2.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.axis2</groupId>
+        <artifactId>axis2-codegen</artifactId>
+        <version>${axis2.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.axis2</groupId>
+        <artifactId>axis2-java2wsdl</artifactId>
+        <version>${axis2.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.axis2</groupId>
+        <artifactId>axis2-kernel</artifactId>
+        <version>${axis2.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.axis2</groupId>
+        <artifactId>axis2-transport-http</artifactId>
+        <version>${axis2.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.axis2</groupId>
+        <artifactId>axis2-transport-local</artifactId>
+        <version>${axis2.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.ws.commons.axiom</groupId>
+        <artifactId>axiom-api</artifactId>
+        <version>${axiom.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.ws.commons.axiom</groupId>
+        <artifactId>axiom-dom</artifactId>
+        <version>${axiom.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.ws.commons.axiom</groupId>
+        <artifactId>axiom-impl</artifactId>
+        <version>${axiom.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.ws.xmlschema</groupId>
+        <artifactId>xmlschema-core</artifactId>
+        <version>${xmlschema-core.version}</version>
+      </dependency>
+      <dependency>
+         <groupId>org.apache.ws.commons.neethi</groupId>
+        <artifactId>neethi</artifactId>
+        <version>${neethi.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.woden</groupId>
+        <artifactId>woden-core</artifactId>
+        <version>${woden.version}</version>
       </dependency>
 
     </dependencies>
